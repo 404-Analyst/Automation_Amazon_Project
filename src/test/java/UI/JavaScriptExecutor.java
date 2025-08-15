@@ -1,0 +1,28 @@
+package UI;
+
+import javax.swing.text.Document;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class JavaScriptExecutor {
+    public static void main(String[] arg){
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver= new ChromeDriver();
+
+        driver.get("https://chat.deepseek.com/");
+
+        //print the title of the page
+
+        JavaScriptExecutor js= new JavaScriptExecutor();
+
+        String title = ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("return document.title;").toString(); 
+
+        System.out.println("Page title is: " + title);
+
+        driver.quit();
+
+    }
+}

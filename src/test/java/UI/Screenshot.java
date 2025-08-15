@@ -27,7 +27,7 @@ public class Screenshot {
                 System.err.println("Failed to save screenshot: " + e.getMessage());
        
             }
-       
+            driver.quit();
     }
     
 }
