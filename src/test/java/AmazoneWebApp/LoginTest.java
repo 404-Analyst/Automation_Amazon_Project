@@ -1,4 +1,4 @@
-package TestNG;
+package AmazoneWebApp;
 
 import java.time.Duration;
 

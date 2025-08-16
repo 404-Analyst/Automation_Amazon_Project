@@ -3,6 +3,7 @@ package UI;
 import javax.swing.text.Document;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -24,5 +25,10 @@ public class JavaScriptExecutor {
 
         driver.quit();
 
+    }
+
+    public void executeScript(String string, WebElement cart) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'executeScript'");
     }
 }
