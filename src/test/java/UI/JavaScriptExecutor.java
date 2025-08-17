@@ -13,7 +13,7 @@ public class JavaScriptExecutor {
         WebDriverManager.chromedriver().setup();
         WebDriver driver= new ChromeDriver();
 
-        driver.get("https://chat.deepseek.com/");
+        driver.get("https://www.amazon.in/");
 
         //print the title of the page
 

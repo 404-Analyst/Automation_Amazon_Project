@@ -15,7 +15,7 @@ public class Screenshot {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.google.com");
+        driver.get("https://www.amazon.in/");
 
         TakesScreenshot ts = (TakesScreenshot) driver;
         File src=ts.getScreenshotAs(OutputType.FILE);
