@@ -13,7 +13,7 @@ public class TestBase {
 	
 	public WebDriver driver;
 	
-	@Test(priority=1)
+	
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver =new ChromeDriver();
