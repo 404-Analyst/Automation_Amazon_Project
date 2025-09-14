@@ -2,7 +2,7 @@
 <suite name="AutomationSuite">
     <test name="SampleTest">
         <classes>
-            <class name="com.example.tests.SampleTestClass"/>
+            <class name="AmazoneWebApp.TestBase.class"/>
         </classes>
     </test>
 </suite>
