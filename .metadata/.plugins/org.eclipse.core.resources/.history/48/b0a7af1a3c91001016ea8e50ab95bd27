@@ -1,0 +1,29 @@
+package JavaCode;
+import java.util.*;
+public class Practice {
+
+	public static void main(String[] args) {
+		//Reverse words in a string
+		
+		String s=" Moumita a is a very a a lovely girl Girl";
+		
+		s=s.toLowerCase();
+		String[] ss=s.split("\\s+");
+		
+		LinkedHashSet<String> ch= new LinkedHashSet<>();
+		for(String c:ss) {
+			ch.add(c);
+		}
+		StringBuilder sb= new StringBuilder();
+		for(String c:ch) {
+			sb.append(c).append(" ");
+		}
+		
+		System.out.println(sb);
+		//System.out.println(odd);
+		
+		
+		}
+}
+
+	

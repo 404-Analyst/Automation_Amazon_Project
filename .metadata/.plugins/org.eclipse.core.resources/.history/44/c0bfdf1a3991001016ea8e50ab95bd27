@@ -1,0 +1,24 @@
+package JavaCode;
+import java.util.*;
+public class Practice {
+
+	public static void main(String[] args) {
+		//Reverse words in a string
+		
+		int[] num= {3,4,5};
+		ArrayList even= new ArrayList<>();
+		ArrayList odd= new ArrayList<>();
+		
+		for(int n:num) {
+			if(n%2==0) {
+				even.add(n);
+			}
+		}
+		
+		System.out.println(even);
+		
+		
+		}
+}
+
+	
